@@ -161,8 +161,11 @@ export RISCV=$HOME/riscvtools
   make -j8
   make install
   ```
-  
-  
+同时请你运行这个代码以保证程序成功运行：
+```bash
+alias gcc_riscv64="riscv64-unknown-elf-gcc"
+```
+
 
 > 注意：
 > 
@@ -171,12 +174,6 @@ export RISCV=$HOME/riscvtools
 > ```bash
 > export PATH=/opt/riscv/bin:$PATH
 > export RISCV=$HOME/riscvtools
-> ```
-> 
-> - 同时请你运行这个代码以保证程序成功运行：
-> 
-> ```bash
-> alias gcc_riscv64="riscv64-unknown-elf-gcc"
 > ```
 
 
